@@ -13,7 +13,7 @@ urlpatterns=[
     path("get_cart_data",views.get_cart_data,name="get_cart_data"),
     path("payment_done",views.payment_done,name="payment_done"),
     path("payment_cancelled",views.payment_cancelled,name="payment_cancelled"),
-    # path("process_payment",views.process_payment,name="process_payment"),ye
+    # path("process_payment",views.process_payment,name="process_payment"),
     path("video_l",views.video_l,name="video_l"),
 
 ]

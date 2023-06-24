@@ -8,7 +8,7 @@ from django.conf import settings
 # Create your views here.
 def index(request):
     var=Category.objects.all().order_by("cat_name")
-    return render(request,'index.html',{"a":var})
+    return render(request,'index.html')
 
 def about_us(request):
     return render(request,'about-us.html')

@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'ubi.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'UBI',
+        # 'NAME': 'UBI',
         'USER': 'postgres',
         'PASSWORD': 'aj1090',
         'HOST': 'localhost',
